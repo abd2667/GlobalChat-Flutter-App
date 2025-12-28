@@ -9,7 +9,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 Future <void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Supabase.initialize( url: "https://ekfavkqnohkywgvzulyi.supabase.co", anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVrZmF2a3Fub2hreXdndnp1bHlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM5MTI2MTYsImV4cCI6MjA3OTQ4ODYxNn0.Ruxw6phA-DGRa0gJVwgF1Xd05xdnrMT30WOxE2ya5ek");
+  await Supabase.initialize( url: "", anonKey: "");
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(ChangeNotifierProvider(create: (context) => UserProvider(),
     child: MyApp()));
