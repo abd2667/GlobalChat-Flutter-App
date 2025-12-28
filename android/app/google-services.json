@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "879703813499",
+    "project_id": "globalchatflutter001",
+    "storage_bucket": "globalchatflutter001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879703813499:android:65c8f1d7eafea92075a1de",
+        "android_client_info": {
+          "package_name": "com.example.globalchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDilapsYlfK4TPI-5lVDBv-dgiZGIm449g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
