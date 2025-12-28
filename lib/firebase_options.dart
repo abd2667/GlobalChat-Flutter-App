@@ -43,39 +43,5 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDilapsYlfK4TPI-5lVDBv-dgiZGIm449g',
-    appId: '1:879703813499:android:65c8f1d7eafea92075a1de',
-    messagingSenderId: '879703813499',
-    projectId: 'globalchatflutter001',
-    storageBucket: 'globalchatflutter001.firebasestorage.app',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBv5820rpLv10LnIGfZYip3ZgiyxifRVp8',
-    appId: '1:879703813499:ios:5b1615fab0e1ccb175a1de',
-    messagingSenderId: '879703813499',
-    projectId: 'globalchatflutter001',
-    storageBucket: 'globalchatflutter001.firebasestorage.app',
-    iosBundleId: 'com.example.globalchat',
-  );
-
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDDNFOHGGmklCw76wkQmnwSujbfFEByg5s',
-    appId: '1:879703813499:web:696bd69305fc29d775a1de',
-    messagingSenderId: '879703813499',
-    projectId: 'globalchatflutter001',
-    authDomain: 'globalchatflutter001.firebaseapp.com',
-    storageBucket: 'globalchatflutter001.firebasestorage.app',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDDNFOHGGmklCw76wkQmnwSujbfFEByg5s',
-    appId: '1:879703813499:web:a10970f4e94e8e1675a1de',
-    messagingSenderId: '879703813499',
-    projectId: 'globalchatflutter001',
-    authDomain: 'globalchatflutter001.firebaseapp.com',
-    storageBucket: 'globalchatflutter001.firebasestorage.app',
-  );
 
 }
